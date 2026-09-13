@@ -1,0 +1,46 @@
+h1{
+ text-align:center
+}
+
+body {
+    background-image: url('/assets/images/image.png');
+    font-family: Arial, sans-serif;
+}
+form{
+    width: 300px;
+    margin:auto;
+    padding: 10px;
+}
+
+select {
+    padding: 10px;
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+select:focus {
+    transform: scale(1.05);
+    border-color: rgb(7, 169, 239);
+}
+
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+button:active {
+    background-color: rgb(29, 167, 246);
+    color: white;
+}
