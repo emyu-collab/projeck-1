@@ -1,9 +1,3 @@
-let = document.querySelector("form");
-form.addEventListener("submit", function(event) {
-    event.preventDefault();
-
-    alert("Pendaftaran berhasil!");
-});
 let form = document.querySelector("form");
 
 form.addEventListener("submit", function(event) {
@@ -17,12 +11,12 @@ form.addEventListener("submit", function(event) {
     let setuju = document.querySelector("#setuju").checked;
 
     if (nama === "" || email === "" || kelas === "" || jurusan === "" || kegiatan === "") {
-        alert("⚠️ Mohon lengkapi semua data!");
+        alert("Mohon lengkapi semua data!");
     } 
     else if (!setuju) {
-        alert("⚠️ Kamu harus menyetujui Syarat & Ketentuan!");
+        alert("Kamu harus menyetujui Syarat & Ketentuan!");
     } 
     else {
-        alert("✅ Pendaftaran berhasil!");
+        alert("Pendaftaran berhasil!");
     }
 });

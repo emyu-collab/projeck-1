@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Tech Fest 2026</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <h1>Dashboard Tech Fest 2026</h1>
+
+    <div class="dashboard">
+
+        <div class="header-dashboard">
+            <h2>Data Peserta</h2>
+            <button onclick="window.location.href='index.html'">
+                + Tambah Peserta
+            </button>
+        </div>
+
+        <div class="card">
+            <h3>Total Peserta</h3>
+            <p id="totalPeserta">0</p>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Lengkap</th>
+                    <th>Email</th>
+                    <th>Kelas</th>
+                    <th>Jurusan</th>
+                    <th>Kegiatan</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+
+            <tbody id="dataPeserta">
+                <!-- Data peserta akan muncul di sini -->
+            </tbody>
+        </table>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
